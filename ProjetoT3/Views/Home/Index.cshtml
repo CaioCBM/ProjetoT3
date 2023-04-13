@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <section class="row" aria-labelledby="aspnetTitle">
+        <h1 id="title">AutoShield</h1>
+        <p class="lead">
+            Bem vindo (a) à AutoShield. Bem-vindo ao sistema de gerenciamento da AutoShield!
+        </p>
+    </section>
+
+    <br />
+    <h2 id="title1">Gerênciamento</h2>
+    <br />
+
+    <div class="row">
+        <section style="display: flex; justify-content: center;" class="col-md-4" aria-labelledby="title1">
+            <button onclick="location.href='@("/" + "Produtos")'" style="background-color: #fafafa; color: #24292e; border-color: #24292e40; width: 180px; height: 180px; display: flex; align-items: center; justify-content: center" class="btn btn-primary d-flex flex-column align-items-center btn-lg">
+                <i class="fa fa-car" style="color: #24292e; margin-bottom: 16px; font-size: 64px"></i>
+                <span style="font-weight:600">Produtos</span>
+            </button>
+        </section>
+        <section style="display: flex; justify-content: center;" class="col-md-4" aria-labelledby="title1">
+            <button onclick="location.href='@("/" + "Clientes")'" style="background-color: #fafafa; color: #24292e; border-color: #24292e40; width: 180px; height: 180px; display: flex; align-items: center; justify-content: center" class="btn btn-primary d-flex flex-column align-items-center btn-lg">
+                <i class="fa fa-user" style="color: #24292e; margin-bottom: 16px; font-size: 64px"></i>
+                <span style="font-weight:600">Clientes</span>
+            </button>
+        </section>
+        <section style="display: flex; justify-content: center;" class="col-md-4" aria-labelledby="title1">
+            <button onclick="location.href='@("/" + "Vendas")'" style="background-color: #fafafa; color: #24292e; border-color: #24292e40; width: 180px; height: 180px; display: flex; align-items: center; justify-content: center" class="btn btn-primary d-flex flex-column align-items-center btn-lg">
+                <i class="fa fa-handshake" style="color: #24292e; margin-bottom: 16px; font-size: 64px"></i>
+                <span style="font-weight:600">Vendas</span>
+            </button>
+        </section>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="row">
+        <section style="display: flex; justify-content: center;" class="col-md-4" aria-labelledby="title1">
+            <button onclick="location.href='@("/" + "Categorias")'" style="background-color: #fafafa; color: #24292e; border-color: #24292e40; width: 180px; height: 180px; display: flex; align-items: center; justify-content: center" class="btn btn-primary d-flex flex-column align-items-center btn-lg">
+                <i class="fa fa-tag" style="color: #24292e; margin-bottom: 16px; font-size: 64px"></i>
+                <span style="font-weight:600">Categorias</span>
+            </button>
+        </section>
+        <section style="display: flex; justify-content: center;" class="col-md-4" aria-labelledby="title1">
+            <button onclick="location.href='@("/" + "Pedidos")'" style="background-color: #fafafa; color: #24292e; border-color: #24292e40; width: 180px; height: 180px; display: flex; align-items: center; justify-content: center" class="btn btn-primary d-flex flex-column align-items-center btn-lg">
+                <i class="fa fa-cart-shopping" style="color: #24292e; margin-bottom: 16px; font-size: 64px"></i>
+                <span style="font-weight:600">Requisições</span>
+            </button>
+        </section>
+        <section style="display: flex; justify-content: center;" class="col-md-4" aria-labelledby="title1">
+            <button onclick="location.href='@("/" + "Fornecedores")'" style="background-color: #fafafa; color: #24292e; border-color: #24292e40; width: 180px; height: 180px; display: flex; align-items: center; justify-content: center" class="btn btn-primary d-flex flex-column align-items-center btn-lg">
+                <i class="fa fa-industry" style="color: #24292e; margin-bottom: 16px; font-size: 64px"></i>
+                <span style="font-weight:600">Fornecedores</span>
+            </button>
+        </section>
+    </div>
+    <br />
+    <br />
+    <br />
+</main>
